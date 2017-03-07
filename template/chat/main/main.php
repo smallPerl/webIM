@@ -26,7 +26,7 @@
 
     // 创建一个Socket实例
     $_CONFIG = {
-        host            : '127.0.0.1',
+        host            : '192.168.182.137',
         port            : '8991',
         myInfoUrl       : '{"a":"main/chat","m":"check","uid":"<?php echo $uid; ?>","token":"<?php echo $token; ?>"}',
         initUserUrl     : '<?php echo \common\Utils::makeUrl('chat', 'userInit',array('user_id'=>$uid));?>',

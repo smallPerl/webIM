@@ -1,0 +1,6 @@
+webIM 为项目的根目录：
+
+需要修改的地方：
+webIM\template\chat\main\main.php  修改    $_CONFIG = { host= 服务器地址
+
+webIM\config\socket_ws\config.php   修改 host 和 密码
